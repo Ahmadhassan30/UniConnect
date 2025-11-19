@@ -49,7 +49,7 @@ export function ApplicantsList({ postId, applicants }: ApplicantsListProps) {
           className="hover:shadow-md transition-shadow cursor-pointer"
           onClick={() => router.push(`/finder/posts/${postId}/applicants/${applicant.id}`)}
         >
-          <CardContent className="pt-4 sm:pt-6">
+          <CardContent className=" pt-4 sm:pt-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-start justify-between gap-3 sm:gap-4">
               <div className="flex-1 w-full">
                 <div className="flex items-center gap-3 sm:gap-4">
